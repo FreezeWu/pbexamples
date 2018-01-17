@@ -1,0 +1,8 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "test1.pbl" "";
+@end;
+@begin Objects 
+ "f1.srf" "test1.pbl";
+ "w_test1.srw" "test1.pbl";
+@end;
