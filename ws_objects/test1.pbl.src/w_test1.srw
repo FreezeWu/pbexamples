@@ -52,6 +52,9 @@ string facename = "MS Sans Serif"
 string text = "未設定"
 end type
 
+event clicked;return 1
+end event
+
 type r_1 from rectangle within w_test1
 integer linethickness = 4
 long fillcolor = 12632256
