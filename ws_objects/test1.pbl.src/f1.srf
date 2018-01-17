@@ -6,6 +6,6 @@ forward prototypes
 global function integer f1 ()
 end prototypes
 
-global function integer f1 ();return 111
+global function integer f1 ();return 222
 end function
 
