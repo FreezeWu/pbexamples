@@ -52,7 +52,7 @@ string facename = "MS Sans Serif"
 string text = "未設定"
 end type
 
-event clicked;return 1
+event clicked;return 111
 end event
 
 type r_1 from rectangle within w_test1
