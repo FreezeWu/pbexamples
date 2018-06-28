@@ -9,8 +9,8 @@ end type
 end forward
 
 global type w_test1 from window
-integer width = 3120
-integer height = 1465
+integer width = 3122
+integer height = 1464
 boolean titlebar = true
 string title = "タイトル未設定"
 boolean controlmenu = true
@@ -39,9 +39,9 @@ end on
 
 type cb_1 from commandbutton within w_test1
 integer x = 640
-integer y = 181
+integer y = 180
 integer width = 352
-integer height = 82
+integer height = 84
 integer taborder = 10
 integer textsize = -8
 integer weight = 700
@@ -52,15 +52,15 @@ string facename = "MS Sans Serif"
 string text = "未設定"
 end type
 
-event clicked;return 111
+event clicked;//add
 end event
 
 type r_1 from rectangle within w_test1
 integer linethickness = 4
 long fillcolor = 12632256
-integer x = 380
-integer y = 430
-integer width = 980
-integer height = 533
+integer x = 379
+integer y = 432
+integer width = 978
+integer height = 532
 end type
 
